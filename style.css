@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: radial-gradient(circle at center, #000 0%, #111 100%);
+  color: #0ff;
+  text-align: center;
+}
+
+#simulator {
+  padding: 2rem;
+}
+
+#stats {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+#scrollArea {
+  height: 70vh;
+  border: 2px dashed #0ff;
+  margin: 2rem auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+#milestone {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #ff0;
+}
